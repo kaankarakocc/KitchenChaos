@@ -1,0 +1,56 @@
+# Unity caches, temporary data, local settings and build outputs
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Pp]rofilerCaptures/
+
+# IDE-generated files
+.vs/
+.idea/
+.vscode/
+/.vsconfig
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+*.pdb
+*.mdb
+*.tmp
+*.bak
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pfx
+*.p12
+*.keystore
+*.jks
+
+# Unity-generated asset folders
+/Assets/AssetStoreTools*
+/Assets/StreamingAssets/aa/
+/Assets/AddressableAssetsData/*/*.bin*
+/Assets/AddressableAssetsData/*/*.bin*.meta
+
+# Keep Assets, Packages, ProjectSettings and Unity .meta files in Git.
